@@ -1,0 +1,41 @@
+  228  more git_remote_ssh_checkin_branch_stuff.how
+  235  git clone ssh://git@github.com:peterdeli/pythonStuff.git
+  236  git clone ssh://git@github.com/peterdeli/pythonStuff.git
+  272  history | grep git | grep ssh
+  275  grep ssh git.info
+  276  grep ssh git.history.11100 
+  277  more git_remote_ssh_checkin_branch_stuff.how
+  279  cp git_remote_ssh_checkin_branch_stuff.how ~/cygwin_pdelevor/git/external_acct
+  284  cat git_remote_ssh_checkin_branch_stuff.how 
+  287  ssh-agent bash -c 'ssh-add ./id_rsa; git push -u origin ./edit_xml.py'
+  288  ssh-agent bash -c 'ssh-add ./id_rsa; git push -u origin edit_xml.py'
+  289  ssh-agent bash -c 'ssh-add ./id_rsa; git push -u origin peterdeli/pythonStuff.git'
+  291  vi git_remote_ssh_checkin_branch_stuff.how 
+  292  grep ssh-agent git_remote_ssh_checkin_branch_stuff.how 
+  300  ssh-agent bash -c 'git push -u origin
+  301  ssh-agent bash -c 'git push -u origin'
+  303  grep ssh-agent git_remote_ssh_checkin_branch_stuff.how 
+  307  ssh -T git@github.com
+  308  ssh -T peterdeli@github.com
+  309  ssh-agent bash -c 'ssh -T git@github.com'
+  310  ssh-agent bash -c 'ssh -T peterdeli@github.com'
+  312  ssh-agent bash -c 'ssh-add -i ~/.ssh/external_git_id_rsa'
+  313  ssh-agent bash -c 'ssh-add -T -i ~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/scratch.git'
+  314  ssh-agent bash -c 'ssh-adi ~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/scratch.git'
+  316  ssh-agent bash -c 'ssh-ad ~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/scratch.git'
+  317  ssh-agent bash -c 'ssh-ad d~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/scratch.git'
+  318  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/scratch.git'
+  332  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/scratch.git'
+  349  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git push -u origin master'
+  358  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/pythonStuff.git
+  361  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/pythonStuff.git
+  418   ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git clone git@github.com:peterdeli/aws.git'
+  419  cksum  /home/pdelevor/.ssh/external_git_id_rsa
+  470  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git push -u origin master'
+  480  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git push -u origin master'
+  481  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git push -u origin master'
+  486  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git push -u origin master'
+  493  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git push -u origin master'
+  498  ssh-agent bash -c 'ssh-add ~/.ssh/external_git_id_rsa; git push -u origin master'
+  514  clip ~/.ssh/external_git_id_rsa
+  520  history | grep git | grep ssh > ssh_remote_cmds.txt
